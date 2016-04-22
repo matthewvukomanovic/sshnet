@@ -9,3 +9,4 @@ Renci.SshClient/packages/
 *.user
 msbuild.log
 _ReSharper.*
+TestResults/
