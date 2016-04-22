@@ -1,0 +1,11 @@
+Renci.SshClient/packages/
+~*
+*.suo
+*.cache
+*.vspscc
+*.vssscc
+[Oo]bj/
+[Bb]in/
+*.user
+msbuild.log
+_ReSharper.*
