@@ -59,9 +59,9 @@ namespace Renci.SshNet
         /// Holds the maximum size of channel data packets that we receive.
         /// </summary>
         /// <value>
-        /// 64 KB.
+        /// 128 KB. //---!!!--- 64 KB. --!!!---//
         /// </value>
-        private const int LocalChannelDataPacketSize = 1024*64;
+        private const int LocalChannelDataPacketSize = 1024 * 128; //---!!!--- 1024 * 64; --!!!---//
 
 #if !TUNING
         private static readonly RNGCryptoServiceProvider Randomizer = new RNGCryptoServiceProvider();
